@@ -1,0 +1,83 @@
+body {
+    background: #90c7e3;  /* bgc#90c7e3 */
+    background-image: linear-gradient(to bottom, #fff, #90c7e3); /* bgi */
+    background-repeat: no-repeat; /* bgr */ 
+    color:#555; /* c#555 */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* ffaa */
+}
+#wrapper {
+    background-color: #fff; /* bgc#fff */
+    box-shadow: 3px 3px 3px #333; /* bsh3px */
+    margin: auto; /* mauto */
+    min-width: 960px; /* mw960px */ 
+    max-width: 2048px; /* mw2048px */
+    width: 80%;
+
+}
+header {
+    background-color: #000032; /* bgc#002171 */
+    background-image: url(images/sunset.jpg); /* bgi */
+    background-position: right; /* bgdp */
+    background-repeat: no-repeat; /* bgr */
+    color:#fff; /* c#fff */
+    height: 60px; /* h60px */
+    padding-top: 15px; /* pt15px */
+    text-align: center; /* tac */
+    
+}
+nav{
+    background-color:#fff; /* bgc#fff */
+    font-weight: bold; /* fwbold */
+    padding: 1em;
+    text-align: center; 
+}
+nav a{
+    text-decoration: none; /* txd */
+}
+main {
+    padding: 1px 20px 20px; 
+}
+h1 {
+    margin-bottom: 0; /* mb0 */
+    margin-top: 0; /* mt0 */
+}
+h1, h2, h3, footer {
+    font-family: Georgia, "Times New Roman", Times, Baskerville, serif; /* ffserif */
+}
+h2 {
+    color:#1976d2; /* c#1976d2 */
+    text-shadow: 1px 1px #ccc;
+}
+h3 {
+    color:#003; /* c#003 */
+}
+dt {
+    color:#002171; /* c#002171 */
+}
+address {
+    font-style: normal; /* fsnormal */
+}
+footer {
+    font-size: 75%; /* fz75% */
+    font-style: italic; /* fsitalic */
+    padding: 2em;
+    text-align: center; /* txa */
+}
+.resort {
+    color:#1976d2; /* c#1976d2 */
+    font-weight: bold; /* fwb */
+}
+#homehero, #yurthero, #trailhero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18.75rem; 
+}
+#homehero {
+    background-image: url(images/coast2.jpg);
+}
+#yurthero {
+    background-image: url(images/yurt.jpg);
+}
+#trailhero {
+    background-image: url(images/trail.jpg);
+}
