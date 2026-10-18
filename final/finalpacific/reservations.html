@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Trails Resort :: Reservations </title>
+    <meta name="description" content="Your coastal getaway should feel effortless from the very first step. At Pacific Trails Resort, share a few details about your stay and our team can help you start planning a relaxing retreat shaped around your plans. Imagine settling into a welcoming yurt, unwinding beneath a soft down quilt, and enjoying the simple comforts that make time away feel special. Whether you are planning a leisurely weekend, a longer escape, or a visit filled with fresh air and coastal activities, getting in touch is made easy. Use our form to share your arrival date, length of stay, and any questions or requests. Prefer a conversation? Call or email us directly. Our team will help you explore your options and make the details feel simple, so you can focus on looking forward to a comfortable stay. Reach out today and let the planning begin at your own pace, with the ease and warmth you deserve.">
+    <link rel="stylesheet" href="pacific.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+
+
+    <div id="wrapper">
+    <header>
+        <h1><a href="index.html">Pacific Trails Resort</a></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="yurts.html">Yurts</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="about.html">Our Story</a></li>
+        </ul>
+    </nav>
+
+    <div id="reservations-hero"></div>
+    <main>
+        <div class="center"><h2>Reservations at Pacific Trails</h2>
+        <h3>Contact Us Today</h3>
+        <p>Required fields are marked with an asterisk (*).</p> </div>
+
+        <form method="post" action="https://webdevbasics.net/scripts/pacific.php" autocomplete="on">
+        
+        <label for="myFName">* First Name: </label>
+        <input type="text" name="myFName" id="myFName" required aria-required="true" autocomplete="given-name" />
+
+     <label for="myLName">* Last Name: </label>
+        <input type="text" name="myLName" id="myLName" required aria-required="true" autocomplete="family-name" />
+
+        <label for="myEmail">* Email: </label>
+        <input type="email" id="myEmail" name="myEmail" id="myEmail" required aria-required="true" autocomplete="email" />
+
+
+        <label for="myPhone">Phone: </label>
+        <input type="tel" id="myPhone" name="myPhone" max length="12" autocomplete="tel" />   
+
+        <label for="myArrival">Arrival Date: : </label>
+        <input type="date" id="myArrival" name="myArrival" autocomplete="off" />
+        
+        <label for="myNights">Nights: </label>
+        <input type="number" id="myNights" name="myNights" min="1" max="14" autocomplete="tel" />
+
+        <label for="myComments">Comments: </label>
+        <textarea id="myComments" name="myComments" rows="2" cols="30" required aria-required="true" autocomplete="off"></textarea>
+
+            <input type="submit" value="Submit" />
+    
+    </form>
+
+        <address class="center">
+        <span class="resort">Pacific Trails Resort</span><br>
+        12010 Pacific Trails Road<br>
+        Zephyr, CA 95555<br>
+        <a href="tel:888-555-1212">888-555-1212</a><br>
+        <a href="mailto:info@pacifictrails.com">info@pacifictrails.com</a>
+        </address>
+    </main>
+    <!-- footer>p*2 -->
+    <footer>
+        <p>Copyright &copy; 2026 Pacific Trails Resort | Najja Gandy</p> 
+    </footer>
+    </div> <!-- end wrapper -->    
+</body>
+
+</html>
